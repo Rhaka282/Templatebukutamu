@@ -207,3 +207,11 @@ if (!isset($_SESSION['login'])) {
 
         </nav>
         <!-- End of Topbar -->
+
+
+
+        if (($_SESSION['role']) != 'operator') {
+  echo "<script>alert('Anda tidak memiliki akses')</script>";
+  echo "<script>window.location.href='index.php'</script>";
+}
+?>

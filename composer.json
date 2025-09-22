@@ -1,0 +1,17 @@
+{
+    "name": "rhaka/bukutamu",
+    "description": "buku tamu mantap",
+    "autoload": {
+        "psr-4": {
+            "Rhaka\\Bukutamu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rhaka"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.1"
+    }
+}
